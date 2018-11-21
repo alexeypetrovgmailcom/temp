@@ -1,0 +1,133 @@
+html {
+  font-family:sans-serif;
+  -ms-text-size-adjust:100%;
+  -webkit-text-size-adjust:100%;
+  background: #E3E8EC;
+
+}
+
+.div-table {
+  display: table;         
+  width: auto;         
+  border: 0;         
+  border-spacing: 0; /* cellspacing:poor IE support for  this */
+}
+.div-table-row {
+  display: table-row;
+  width: auto;
+  clear: both;
+  height: 5.7em;
+}
+.div-table-col {
+  float: left; /* fix for  buggy browsers */
+  display: table-column;         
+  width: 5.7em;
+  height: 5.7em;
+  background-color: #ccc;  
+}
+
+.div-small-table {
+  display: table;         
+  width: auto;         
+  border: 0;         
+  border-spacing: 0; /* cellspacing:poor IE support for  this */
+}
+.div-small-table-row {
+  display: table-row;
+  width: auto;
+  clear: both;
+  height: 2.468em;
+}
+.div-small-table-col {
+  margin-left: 0.8em;
+  float: left; /* fix for  buggy browsers */
+  display: table-column;         
+  width: 2.468em;         
+  height: 2.468em;
+  background-color: #ccc;  
+}
+
+.colortext {
+  padding-top: 2em;
+  
+  text-align: center;
+  font-size: 0.6em;
+  color: white;
+}
+
+.small-colortext {
+  padding-top: 1em;
+  
+  text-align: center;
+  font-size: 0.6em;
+  color: white;
+}
+
+.t1 {
+  padding-top: 1.3em;
+  margin-left: 2em;
+  font-size: 2.5em;
+  color: #101828;
+}
+
+.t2 {
+  padding-top: 3em;
+  padding-bottom: 1.5em;
+  font-size: 1em;
+  color: #101828;
+}
+
+.t3 {
+  padding-top: 1.4em;
+  font-size: 3em;
+  color: #7700FF;
+}
+
+.t4 {
+  padding-top: 1em;
+  padding-bottom: 0em;
+  font-size: 1em;
+  color: #101828;
+}
+
+.t5 {
+  padding-top: 0em;
+  padding-bottom: 0em;
+  font-size: 0.8em;
+  color: #979799;
+}
+
+.t6 {
+  padding-top: 6em;
+  font-size: 2em;
+  color: #7700FF;
+}
+
+.column1 {
+  float: left;
+  width: 5em;
+  
+}
+
+.column2 {
+  float: left;
+  width: 28em;
+}
+
+.column3 {
+  float: left;
+  width: 28em;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.vertical-text {
+	transform: rotate(270deg);
+  transform-origin: left top 0;
+  vertical-align: top;
+}
